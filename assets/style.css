@@ -32,21 +32,20 @@
 .footer-item {
   list-style: none;
   line-height: 20px;
+  padding: 8px;
 }
 
 .footer-item a {
   color: #000;
-  /*text-align: center;*/
 }
 
 .footer-item a:hover {
-    color: #101b70;
+  color: #0399a8;
 }
 
 h5 {
   color: #101b70;
-/*    text-align: center;*/
-  /*margin-bottom: 20px;*/
+  font-size: 1.5rem;
 }
 
 .top-footer {
@@ -58,10 +57,8 @@ h5 {
 }
 
 .nav-link  {
-  /*color: #101b70 !important;*/
   padding-right: 1rem;
   padding-left: 1rem;
-  /*font-size: 0.9rem;*/
   font-weight: 600;
 }
 
@@ -131,10 +128,14 @@ h5 {
 
 
 
+/* Top Header */
+header .top-header {
+  background: #f1f1f1
+}
 
-
-
-
+header .top-header .top-strip {
+  font-size: 14px;
+}
 
 
 
