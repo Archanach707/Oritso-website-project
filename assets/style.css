@@ -43,6 +43,15 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* Team Members */
+.members-img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 /* For Added background Affects */
 .secondry-bg-affet {
@@ -232,6 +241,17 @@ header .top-header .top-strip {
 
 .middle-footer {
   border-top: 1px solid lightgray;
+}
+
+/* Our Team */
+.card.cheque {
+  border: 2px solid #f7fafb;
+  background: #b9e2e6;
+  height: 100%;
+}
+
+.card-title.content-body {
+  color: #101b70;
 }
 
 /* For Media Queary */
