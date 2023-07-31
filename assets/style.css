@@ -43,6 +43,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* For Clients */
+.clients {
+  width: 24.6%;
+  max-width: 100%;
+  display: inline-block;
+}
+
 /* Team Members */
 .members-img {
   width: 100px;
@@ -56,6 +64,11 @@
 /* For Added background Affects */
 .secondry-bg-affet {
   background: #f7fafb;
+  margin-top: 40px;
+}
+
+.third-bg-affet {
+  background: #b9e2e6;
   margin-top: 40px;
 }
 
@@ -254,6 +267,48 @@ header .top-header .top-strip {
   color: #101b70;
 }
 
+/* CTS */
+#counter {
+  padding: 10px;
+  text-align: center;
+}
+
+#counter h4 {
+  color: #101b70;
+  font-size: 1.4rem;
+}
+
+#counter p {
+  font-size: 1.1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box img {
+  margin: 10px 0 10px 10px;
+}
+
+.accordion-header {
+  border: 1px solid lightblue;
+  margin-bottom: 20px;
+}
+
+.accordion-flush .accordion-item {
+  border-bottom: 0;
+}
+
+.wrapper {
+  max-width: 100%;
+  width: 700px;
+  margin: auto;
+}
+
+
+
 /* For Media Queary */
 @media (max-width: 992px) {
   .top-header  {
@@ -288,10 +343,18 @@ header .top-header .top-strip {
     width: 32.4%;
   }
 
-
   .news-img {
    display: none; 
   }
+
+  #counter h4 {
+    font-size: 2rem !important;
+  }
+
+  #counter p {
+    font-size: 1.4rem;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -309,3 +372,4 @@ header .top-header .top-strip {
     width: 32%;
   }
 }
+
