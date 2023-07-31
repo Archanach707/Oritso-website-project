@@ -394,6 +394,10 @@ header .top-header .top-strip {
   .clients {
     width: 24%;
   }
+
+  .orits-services {
+    width: 100%;
+  }
 }
 
 @media (max-width: 360px) {
