@@ -87,6 +87,17 @@
   color: #0597a5;
 }
 
+/*  */
+.orits-services {
+  background: #f7fafb;
+  border: 1px solid #0597a5;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  height: 100%;
+}
+
+
 /* Top Header */
 header .top-header {
   background: #f1f1f1
@@ -170,10 +181,6 @@ header .top-header .top-strip {
 .about-list  {
   list-style: none;
   padding-left: 0;
-}
-
-.about-items {
-  padding-bottom: 10px;
 }
 
 /*Our services*/
@@ -314,7 +321,8 @@ header .top-header .top-strip {
 
 .about-items {
   margin-bottom: 10px;
-  display: flex;
+  padding-bottom: 10px;
+  /* display: flex; */
 }
 
 .about-items img {
