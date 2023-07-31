@@ -307,6 +307,21 @@ header .top-header .top-strip {
   margin: auto;
 }
 
+/* RECONE */
+.about-list {
+  list-style: none;
+}
+
+.about-items {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.about-items img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
 
 
 /* For Media Queary */
@@ -373,153 +388,3 @@ header .top-header .top-strip {
   }
 }
 
-
-
-.banner {
-  background-color: transparent;
-  background-image: linear-gradient(190deg, #fff 0%, #0597a5 100%);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  min-height: 320px;
-}
-
-.banner-inner {
-  background: #101b70;
-  padding: 20px 20px;
-  display: inline-block;
-  min-height: 300px;
-}
-
-.banner-head {
-  font-size: 2rem;
-}
-
-.banner-head-two {
-  font-size: 1.5rem;
-  color: #0597a5;
-}
-
-span.banner-strip {
-  margin-left: 0 !important;
-  width: 100px;
-  height: 3px !important;
-  background: #fff;
-  display: block;
-}
-
-/*Our services*/
-.card {
-  border: none;
-  background: #f7fafb;
-  height: 100%;
-}
-
-.card.cheque {
-  border: 2px solid #f7fafb;
-  background: #b9e2e6;
-  height: 100%;
-}
-
-.card .card-img-top.benefit-img {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.card-title.content-body {
-  color: #101b70;
-}
-
-#counter h4 {
-  color: #101b70;
-  font-size: 2rem;
-}
-
-#counter p {
-  font-size: 1.1rem;
-}
-
-/*our-customer-inner*/
-.our-customer {
-  width: 100%;
-}
-
-.our-customer-inner {
-  width: 33%;
-  max-width: 100%;
-  display: inline-block;
-}
-
-.carousel-inner {
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  margin: auto;
-  width: 950px;
-}
-
-/*services*/
-.services-button {
-  padding: 12px 24px;
-  border: 1px solid;
-  background: #101b70;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  border: none;
-}
-
-.services-button:hover {
-  color: #0597a5;
-}
-
-#inner-card.card {
-  height: auto;
-}
-
-/*counter*/
-.box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.box img {
-  margin: 15px 0 15px 15px !important;
-}
-
-/*accordion*/
-.accordion-header {
-  border: 1px solid lightblue;
-  margin-bottom: 20px;
-}
-
-.accordion-flush .accordion-item {
-  border-bottom: 0;
-}
-
-.about-list {
-  list-style: none;
-}
-
-.about-items {
-  margin-bottom: 10px;
-  display: flex;
-}
-
-.about-items img {
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
-}
-
-@@media (max-width: 767px) {
-}
-
-@@media (max-width: 575px) {
-}
-
-@@media (max-width: 360px) {
-}
