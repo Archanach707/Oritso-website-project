@@ -358,6 +358,10 @@ header .top-header .top-strip {
     width: 32.4%;
   }
 
+  .clients {
+    width: 24.2%;
+  }
+
   .news-img {
    display: none; 
   }
@@ -379,6 +383,9 @@ header .top-header .top-strip {
     font-size: 0.8rem;
   }
   
+  .clients {
+    width: 24%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -386,5 +393,10 @@ header .top-header .top-strip {
   .partners-inner {
     width: 32%;
   }
+
+  .clients {
+    width: 23.8%;
+  }
+  
 }
 
