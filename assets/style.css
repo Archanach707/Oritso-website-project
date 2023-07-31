@@ -331,6 +331,13 @@ header .top-header .top-strip {
   margin-right: 10px;
 }
 
+/* scanner */
+.scanner {
+  list-style: none;
+  width: 500px;
+  margin: auto;
+  max-width: 100%;
+}
 
 /* For Media Queary */
 @media (max-width: 992px) {
