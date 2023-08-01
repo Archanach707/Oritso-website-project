@@ -163,12 +163,26 @@ header .top-header .top-strip {
   padding-bottom: 15px;
   min-height: 320px;
 }
-
-.banner .banner-inner {
+ 
+.banner-inner {
   background: #101b70;
   padding: 20px 20px;
   display: inline-block;
   min-height: 300px;
+}
+
+.banner-bg {
+  width: 370px;
+  max-width: 100%;
+  margin-left: auto;
+}
+/* Progress */
+.progess-bold {
+  font-size: 3rem !important;
+}
+
+.progess-normal {
+  font-size: 1.5rem !important;
 }
 
 /* About youtube */
@@ -213,8 +227,8 @@ header .top-header .top-strip {
 
 /* News */
 .news-img {
-  background: #f7fafb;
-  padding: 16%;
+  /* background: #f7fafb; */
+  padding: 10% 10% 0 10%;
   height:100%; 
 }
 
@@ -363,6 +377,10 @@ header .top-header .top-strip {
     padding-left: 0.7rem;
   }
 
+  .banner-bg {
+    display: none !important;
+  }
+
   .top-footer h5,
   .footer-list {
     text-align: center;
@@ -378,7 +396,7 @@ header .top-header .top-strip {
   }
 
   .news-img {
-   display: none; 
+    padding: 0 10% 0 10%;
   }
 
   #counter h4 {
@@ -387,6 +405,18 @@ header .top-header .top-strip {
 
   #counter p {
     font-size: 1.4rem;
+  }
+
+  .banner-inner {
+    display: block;
+  }
+
+  .banner-bg img {
+    display: none !important;
+  }
+
+  .progess-normal {
+    padding: 20px 20px 10px 20px;
   }
 
 }
@@ -405,6 +435,7 @@ header .top-header .top-strip {
   .orits-services {
     width: 100%;
   }
+
 }
 
 @media (max-width: 360px) {
@@ -416,6 +447,6 @@ header .top-header .top-strip {
   .clients {
     width: 23.8%;
   }
-  
+
 }
 
