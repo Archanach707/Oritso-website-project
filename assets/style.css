@@ -87,16 +87,21 @@
   color: #0597a5;
 }
 
-/*  */
-.orits-services {
-  background: #f7fafb;
-  border: 1px solid #0597a5;
-  padding: 20px;
-  width: 60%;
-  margin: auto;
-  height: 100%;
+/* Services */
+.services-left img {
+  margin-right: auto; 
+  height: 350px; 
+  display: block;
 }
 
+.services-left-inner {
+  padding-left: 25%;
+}
+
+.service-right,
+.services-bank {
+  display: block;
+}
 
 /* Top Header */
 header .top-header {
@@ -106,7 +111,6 @@ header .top-header {
 header .top-header .top-strip {
   font-size: 14px;
 }
-
 
 /* Navigations */
 .navbar-brand.sidebar {
@@ -369,6 +373,14 @@ header .top-header .top-strip {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
+
+  .services-left-inner {
+    padding-left: 0 !important;
+  }
+
+  .services-left img {
+    height: 100%; 
+  }
 }
 
 @media (max-width: 767px) {
@@ -417,6 +429,15 @@ header .top-header .top-strip {
 
   .progess-normal {
     padding: 20px 20px 10px 20px;
+  }
+
+  .services-left img {
+    height: 100%; 
+  }
+
+  .service-right img,
+  .services-bank {
+    display: none;
   }
 
 }
