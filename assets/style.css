@@ -171,7 +171,7 @@ header .top-header .top-strip {
 .banner-inner {
   background: #101b70;
   padding: 20px 20px;
-  display: inline-block;
+  display: block;
   min-height: 300px;
 }
 
